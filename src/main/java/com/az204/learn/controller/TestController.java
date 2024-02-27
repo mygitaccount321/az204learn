@@ -20,12 +20,17 @@ public class TestController {
 		Student student1 = new Student();
 		student1.setName("Student One");
 		student1.setRollNumber(101L);
+		students.add(student1);
 		
 		Student student2 = new Student();
 		student2.setName("Student Two");
 		student2.setRollNumber(102L);
-		students.add(student1);
 		students.add(student2);
+		
+		Student student3 = new Student();
+		student3.setName("Student Three");
+		student3.setRollNumber(103L);
+		students.add(student3);
 		return ResponseEntity.ok(students);
 	}
 }
