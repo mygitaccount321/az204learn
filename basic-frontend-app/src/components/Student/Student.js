@@ -7,7 +7,7 @@ export const Student = () => {
     useEffect(() => {
         const fetchData = async () => {
             try{
-                const response = await fetch("http://localhost:8080/students", { method: 'GET',headers: { "Access-Control-Allow-Origin": "*"}});
+                const response = await fetch("/students", { method: 'GET',headers: { "Access-Control-Allow-Origin": "*"}});
                 if(!response.ok){
                     throw new Error(response.statusText);
                 }
