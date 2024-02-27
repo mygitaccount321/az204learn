@@ -20,7 +20,7 @@ export const Student = () => {
         fetchData();
     }, []);
     return (
-        <><h1>Hello Az-204</h1>
+        <><h1>Hello Az-204!</h1>
         
         <Container className="d-flex justify-content-center">
  <Table striped style={{ width: '100%'}} bordered hover >
