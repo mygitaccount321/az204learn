@@ -1,4 +1,4 @@
-Spring boot Az-204
+Spring boot Az-204.
 
 
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
